@@ -1,0 +1,34 @@
+<!-- Guilherme Ricardo de Paiva    n8    30/04 -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário de Login</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário de Login</h1>
+        <img id="icon" src="img/icon.png" alt="Icone de Usuário">
+        <div id="formulario">
+            <form action="#" method="post">
+                <label for="usuario">Usuário</label>
+                <input type="text" name="usuario" id="user" required>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="password" required>
+                <div id="nivel_acesso">
+                    <label for="nivel">Nível de Acesso:</label>
+                    <select name="nivel" id="access_level" required5>
+                        <option value="comum">Usuário Comum</option>
+                        <option value="adm">Administrador</option>
+                    </select>
+                </div>
+                <input id="botao_entrada" type="submit" value="Entrar">
+            </form>
+            <a href="redefinir_senha.html">Esqueceu a senha?</a>
+        </div>
+    </main>
+</body>
+</html>

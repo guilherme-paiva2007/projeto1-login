@@ -1,0 +1,70 @@
+/* Guilherme Ricardo de Paiva    n8    30/04 */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+#icon {
+    width: 25%;
+    margin: 12px 0;
+}
+
+#formulario {
+    width: 30%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+label {
+    margin-top: 8px;
+    margin-bottom: 2px;
+    font-weight: bolder;
+}
+input {
+    margin-bottom: 8px;
+    margin-top: 2px;
+    padding: 4px;
+    border: 1px grey solid;
+    border-radius: 2px;
+}
+select {
+    margin: 8px 0;
+    padding: 2px;
+}
+#botao_entrada {
+    margin: 4px 0;
+    background-color: rgb(74, 181, 31);
+    border: 0;
+    font-weight: bolder;
+    width: 102%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+a {
+    margin-top: 2px
+}
